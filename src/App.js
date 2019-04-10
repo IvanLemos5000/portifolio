@@ -20,7 +20,7 @@ class App extends Component {
                 { this.state.displayBio ? (
                     <div>
                         <p>I live in São Paulo</p>
-                        <p>My favorite language is Pyhton, but I'm learning React.js too.</p>
+                        <p>My favorite language is Pyhton, and I'm learning React.js now.</p>
                         <p>Besides coding, I also like play video-games and listen music.</p>
                         <button onClick={this.toggleDisplayBio}>Show Less</button>
                     </div>
